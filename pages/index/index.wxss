@@ -1,0 +1,23 @@
+.cont{
+  width: 650rpx;
+  height: 650rpx;
+  background-color: rgb(184, 175, 158);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10rpx;
+  justify-content: space-between;
+}
+.cont_item{
+  width: 110rpx;
+  height: 110rpx;
+  /* background-color: rgb(204,192,178); */
+  text-align: center;
+  line-height: 110rpx;
+  margin: 10rpx;
+}
+
+.msg{
+  display: flex;
+  flex-direction: column;
+}

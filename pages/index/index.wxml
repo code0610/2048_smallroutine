@@ -1,0 +1,14 @@
+<view class='app'>
+  <view class='cont' bindtap="handletap" bindtouchstart="handletouchtart" bindtouchmove="handletouchmove">
+    <block wx:for="{{tds}}" wx:for-item="itemName">
+      <view class='cont_item' style='color:{{itemName.color}};background-color:{{itemName.backgroundColor}};font-size:{{itemName.fontSize}};'>
+        <text>{{ itemName.text }}</text>
+      </view>
+    </block>
+  </view>
+  <view class='msg'>
+      <text>左边的距离：{{ lastX }}</text>
+      <text>上边的距离：{{ lastY }}</text>
+      <text>{{ text }}</text>
+  </view>
+</view>
